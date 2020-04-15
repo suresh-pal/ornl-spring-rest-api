@@ -1,0 +1,2 @@
+insert into user_account(userid, firstname, lastname, email) values ('billingsjj', 'Jay', 'Billings', 'billingsjj@ornl.gov');
+insert into user_account(userid, firstname, lastname, email) values ('carterka', 'Kate', 'Carter', 'carterka@ornl.gov');
