@@ -13,18 +13,18 @@ Even though this application can run on Linux or macOS, The instructions below a
 2) Java 8 or above installed. Refer [attached](https://ornl.s3.amazonaws.com/InstallJava8OnWindows.pdf) document for new installation
 3) Git Bash or Windows PowerShell that has Git installed. Git bash can be installed from https://gitforwindows.org/. Open command line git and clone the project from GitHub using the below commands
 
-**$mkdir sureshapp**
+     **$mkdir sureshapp**
 
-**$cd sureshapp**
+     **$cd sureshapp**
 
-**$git clone https://github.com/suresh-pal/ornl-spring-rest-api.git**
+     **$git clone https://github.com/suresh-pal/ornl-spring-rest-api.git**
 
-**cd ornl-spring-rest-api**
+     **cd ornl-spring-rest-api**
 
 
-To start the application run the below command. This will launch the application on Tomcat Server that listens on port 8080. The command will also bring up the embedded Derby Database and insert a couple of user records into the table USER_ACCOUNTS table.
+     To start the application run the below command. This will launch the application on Tomcat Server that listens on port 8080. The command will also bring up the embedded Derby Database and insert a couple of user records into the table USER_ACCOUNTS table.
 
-__$java -jar target/rest-0.0.1-SNAPSHOT.jar__
+     **$java -jar target/rest-0.0.1-SNAPSHOT.jar**
 
 4) Postman or Chrome browser with Advanced Rest Client(ARC) plugin installed to test the application. The [attached](https://ornl.s3.amazonaws.com/testingApplication.pdf) document will give details on how to test it using ARC on chrome.
 
