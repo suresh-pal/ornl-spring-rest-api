@@ -1,30 +1,28 @@
 # Getting Started
 
 ### Project Description
-This project/application demonstrates on how to manage the information of ORNL employees stored in USER_ACCOUNTS table. The information received(POST), accessed(GET) and managed(PUT/DELETE) via the REST API. My enabling this as an API, the information can be shared accross the enterprise systems in a more decoupled manner. The GET, POST, PUT and DELETE are HTTP methods by which other systems can manage the USER_ACCOUNTS table information.
+This project/application demonstrates how to manage the information of ORNL employees stored in the USER_ACCOUNTS table. The information received(POST), accessed(GET) and managed(PUT/DELETE) via the REST API. By enabling this as an API, the information can be shared across the enterprise systems in a more decoupled manner. The GET, POST, PUT and DELETE are HTTP methods by which other systems can manage the USER_ACCOUNTS table information.
 
 ### Technology Demonstrated
-This project in a java spring application leveraging springboot for faster development. The project dependencies are Spring Web, Spring Data JPA, embedded Apache Derby Database and embedded Tomcat server. The project skeletion was build using [Spring Initializr](https://start.spring.io/)
+This project is a java spring application leveraging spring-boot for faster development. The project dependencies are Spring Web, Spring Data JPA, embedded Apache Derby Database and embedded Tomcat server. The project skeleton was build using [Spring Initializr](https://start.spring.io/)
 
 ### User Testing
-Even though this application can run on Linux or MacOS, The instructions below are currently provided for Windows environment. To test this application, the assumption are that the user has the below:
+Even though this application can run on Linux or macOS, The instructions below are currently provided for the Windows environment. To test this application, the assumption is that the user has the below:
 
 1) Windows PC
-2) Java 8 or above installed. Refer attached document for new installation
-3) Git Bash or Windows powershell that has Git installed. Git bash can be installed from https://gitforwindows.org/. Open command line git and clone the project from github using the command
+2) Java 8 or above installed. Refer [attached](https://ornl.s3.amazonaws.com/InstallJava8OnWindows.pdf) document for new installation
+3) Git Bash or Windows PowerShell that has Git installed. Git bash can be installed from https://gitforwindows.org/. Open command line git and clone the project from GitHub using the below commands
 
-$mkdir sureshapp
-$cd sureshapp
-$git clone https://github.com/suresh-pal/ornl-spring-rest-api.git
-cd ornl-spring-rest-api
+**$mkdir sureshapp**
+**$cd sureshapp**
+**$git clone https://github.com/suresh-pal/ornl-spring-rest-api.git**
+**cd ornl-spring-rest-api**
 
-To run the application run the below commad. This will launch the application on Tomcat Server that listens on port 8080. The command will also bring up the embedded Derby Database and insert couple of user records into the table USER_ACCOUNTS table.
+To start the application run the below command. This will launch the application on Tomcat Server that listens on port 8080. The command will also bring up the embedded Derby Database and insert a couple of user records into the table USER_ACCOUNTS table.
 
-$java -jar target/rest-0.0.1-SNAPSHOT.jar
+**$java -jar target/rest-0.0.1-SNAPSHOT.jar**
 
-
-
-4) Postman or Chrome browser with Advanced Rest Client plugin installed to test the application. 
+4) Postman or Chrome browser with Advanced Rest Client(ARC) plugin installed to test the application. The [attached](https://ornl.s3.amazonaws.com/testingApplication.pdf) document will give details on how to test it using ARC on chrome.
 
 
 
